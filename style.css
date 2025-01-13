@@ -1,0 +1,80 @@
+/*Adicionei a cor de fundo da pagina*/
+body {
+    background-color: #e6d8d8;
+}
+/* Iniciando o cabecalho, como adicionei <nav> no html, aqui no CSS vou editar o <nav> tambem*/
+nav {background-color: #3C78B5; /* Cor de fundo da barra de navegação */
+    padding: 8px;
+}
+nav a { color: white; /* Cor dos links no menu */
+    padding: 18px;
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline-block; /* Faz os links ficarem lado a lado */
+    font-size: 17px;
+}
+nav a:hover {background-color: #cac5c5; /* Cor de fundo quando o mouse passar */
+}
+/*Adicionei uma classe em cada game, estou mudando a cor e a fonte por essas classes*/
+.Home {font-size: 30px; text-align: center; 
+}
+.um { font-size: 15px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dois { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tres { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quatro { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cinco { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.seis { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sete { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.oito { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nove { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dez { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.onze { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.doze { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.treze { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quatorze { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quinze { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dezesseis { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dzessete { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dezoito { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dezenove { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.vinte { font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Mudando a cor do titulo principal e do titulo de cada game*/
+section h1 { color: rgb(104, 1, 1);}
+section h2 { color: #0614d8; font-family: Arial, Helvetica, sans-serif; font-size: 27px;
+}
+/*Adicionei as redes sociais no rodape, e aqui vou modifica-las*/
+.Redes-Sociais1 {text-align: center; margin: 2rem;
+}
+#voltar-topo {position: fixed; /* Fixa o botão na tela */
+    bottom: 20px;    /* Distância da parte inferior */
+    right: 20px;     /* Distância do lado direito */
+    background-color: #0614d8; /* Cor de fundo */
+    color: #fff;     /* Cor do texto */
+    border: none;    /* Remove borda */
+    border-radius: 50%; /* Deixa o botão redondo */
+    padding: 10px 15px; /* Tamanho do botão */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+    font-size: 18px; /* Tamanho do texto */
+    display: none;   /* Inicialmente oculto */
+}
+#voltar-topo:hover { background-color: rgb(104, 1, 1); /* Cor de fundo ao passar o mouse */
+}
